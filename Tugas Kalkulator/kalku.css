@@ -1,0 +1,30 @@
+.kalkulator {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #25c4b0;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 15px #999;
+    margin-top: 100px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+.kalkulator:hover {
+    background-color: #25c4b0;
+
+
+}
+
+.kalkulator:active {
+    background-color: #25c4b0;
+    box-shadow: 0 8px #666;
+    transform: translateY(4px);
+}
